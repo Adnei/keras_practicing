@@ -1,5 +1,8 @@
 # Getting started with keras by:
 #   https://www.datacamp.com/community/tutorials/deep-learning-python
+# pandas basics
+#   https://www.w3resource.com/python-exercises/pandas/index.php
+#   https://www.machinelearningplus.com/python/101-pandas-exercises-python/
 
 import pandas as pd
 import matplotlib.pyplot as plt
