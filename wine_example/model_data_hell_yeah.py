@@ -3,7 +3,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 # separing imports just to break the line
 from sklearn.metrics import confusion_matrix, precision_score
-from sklearn.metrics import recall_score, f1_score, cohen_kappa_score
+from sklearn.metrics import f1_score, cohen_kappa_score
 
 model = Sequential()
 
@@ -47,13 +47,3 @@ confusion_matrix(pre.y_test, y_pred)
 precision_score(pre.y_test, y_pred)
 f1_score(pre.y_test, y_pred)
 cohen_kappa_score(pre.y_test, y_pred)
-
-###############################################################################
-# @TODO --> Experiments                                                       #
-#        -> Try it out with more or less layers                               #
-#        -> Make a multi-class classification problem by considering the      #
-#     'quality' property                                                      #
-#        -> Try out changing the activation function                          #
-#           -> learn more about activation functions                          #
-#        -> Try to predict the wine quality                                   #
-###############################################################################
